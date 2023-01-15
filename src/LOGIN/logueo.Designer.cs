@@ -28,143 +28,127 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(logueo));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.txtcontra = new System.Windows.Forms.TextBox();
             this.txtusuario = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
-            this.iconPictureBox3 = new FontAwesome.Sharp.IconPictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(717, 364);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Unispace", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(265, 62);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(259, 25);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "INGRESE SU USUARIO:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Unispace", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(265, 157);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(298, 25);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "INGRESE SU CONTRASEÑA:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtcontra
             // 
-            this.txtcontra.Location = new System.Drawing.Point(291, 197);
+            this.txtcontra.BackColor = System.Drawing.Color.White;
+            this.txtcontra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcontra.Location = new System.Drawing.Point(97, 301);
+            this.txtcontra.MaxLength = 10;
             this.txtcontra.Name = "txtcontra";
             this.txtcontra.PasswordChar = '*';
-            this.txtcontra.Size = new System.Drawing.Size(191, 20);
+            this.txtcontra.Size = new System.Drawing.Size(180, 26);
             this.txtcontra.TabIndex = 3;
             // 
             // txtusuario
             // 
-            this.txtusuario.Location = new System.Drawing.Point(291, 108);
+            this.txtusuario.BackColor = System.Drawing.Color.White;
+            this.txtusuario.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtusuario.Location = new System.Drawing.Point(97, 236);
+            this.txtusuario.MaxLength = 20;
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(191, 20);
+            this.txtusuario.Size = new System.Drawing.Size(180, 26);
             this.txtusuario.TabIndex = 4;
+            this.txtusuario.Tag = "";
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button1.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(306, 250);
+            this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(82, 386);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 45);
+            this.button1.Size = new System.Drawing.Size(217, 35);
             this.button1.TabIndex = 5;
             this.button1.Text = "Ingresar";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // iconPictureBox1
+            // pictureBox1
             // 
-            this.iconPictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.iconPictureBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.User;
-            this.iconPictureBox1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 79;
-            this.iconPictureBox1.Location = new System.Drawing.Point(158, 49);
-            this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(90, 79);
-            this.iconPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.iconPictureBox1.TabIndex = 6;
-            this.iconPictureBox1.TabStop = false;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::LOGIN.Properties.Resources.login;
+            this.pictureBox1.Location = new System.Drawing.Point(66, 18);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(254, 180);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
             // 
-            // iconPictureBox2
+            // button2
             // 
-            this.iconPictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.iconPictureBox2.ForeColor = System.Drawing.Color.Green;
-            this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.Key;
-            this.iconPictureBox2.IconColor = System.Drawing.Color.Green;
-            this.iconPictureBox2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox2.IconSize = 79;
-            this.iconPictureBox2.Location = new System.Drawing.Point(158, 138);
-            this.iconPictureBox2.Name = "iconPictureBox2";
-            this.iconPictureBox2.Size = new System.Drawing.Size(90, 79);
-            this.iconPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.iconPictureBox2.TabIndex = 7;
-            this.iconPictureBox2.TabStop = false;
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::LOGIN.Properties.Resources.Vector;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(342, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(25, 25);
+            this.button2.TabIndex = 6;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // iconPictureBox3
+            // label2
             // 
-            this.iconPictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.iconPictureBox3.ForeColor = System.Drawing.Color.Red;
-            this.iconPictureBox3.IconChar = FontAwesome.Sharp.IconChar.RightLong;
-            this.iconPictureBox3.IconColor = System.Drawing.Color.Red;
-            this.iconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox3.IconSize = 58;
-            this.iconPictureBox3.Location = new System.Drawing.Point(621, 271);
-            this.iconPictureBox3.Name = "iconPictureBox3";
-            this.iconPictureBox3.Size = new System.Drawing.Size(69, 58);
-            this.iconPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.iconPictureBox3.TabIndex = 8;
-            this.iconPictureBox3.TabStop = false;
-            this.iconPictureBox3.Click += new System.EventHandler(this.iconPictureBox3_Click);
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(97, 330);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 13);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Contraseña";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(97, 265);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(43, 13);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Usuario";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Firebrick;
+            this.label1.Location = new System.Drawing.Point(97, 201);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.TabIndex = 11;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // logueo
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(717, 364);
-            this.Controls.Add(this.iconPictureBox3);
-            this.Controls.Add(this.iconPictureBox2);
-            this.Controls.Add(this.iconPictureBox1);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(379, 468);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtusuario);
             this.Controls.Add(this.txtcontra);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "logueo";
@@ -172,25 +156,20 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.logueo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtcontra;
         private System.Windows.Forms.TextBox txtusuario;
         private System.Windows.Forms.Button button1;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label1;
     }
 }
 

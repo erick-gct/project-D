@@ -25,6 +25,7 @@ namespace LOGIN
             DataTable dt = new DataTable();
             objent.usuario = txtusuario.Text;
             objent.clave = txtcontra.Text;
+
             dt = objneg.N_user(objent);
 
             if (dt.Rows.Count > 0)
@@ -41,11 +42,12 @@ namespace LOGIN
                     Application.Run(new PRINCIPAL());
                 txtcontra.Clear();
                 txtusuario.Clear();
+                label1.Text = "";
 
             }
             else
             {
-                MessageBox.Show("USUARIO O CONTRASEÑA INCORRECTOS" , "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                label1.Text = "Usuario o contraseña Incorrecta";
             }
         }
 
@@ -71,16 +73,32 @@ namespace LOGIN
 
         private void logueo_Load(object sender, EventArgs e)
         {
-            label1.Parent = pictureBox1;
-            label2.Parent = pictureBox1;
-            iconPictureBox1.Parent = pictureBox1;
-            iconPictureBox2.Parent = pictureBox1;
-            iconPictureBox3.Parent = pictureBox1;
+           // label1.Parent = pictureBox1;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

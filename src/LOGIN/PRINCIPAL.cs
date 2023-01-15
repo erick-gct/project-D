@@ -77,5 +77,10 @@ namespace LOGIN
             
             formulario.ShowDialog();
         }
+
+        private void gestiónDeEntidadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

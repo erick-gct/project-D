@@ -10,3 +10,15 @@ C:\Users\kenii\source\repos\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyCompl
 C:\Users\kenii\source\repos\Capa_Negocio\obj\Debug\Capa_Negocio.dll
 C:\Users\kenii\source\repos\Capa_Negocio\obj\Debug\Capa_Negocio.pdb
 C:\Users\kenii\source\repos\Capa_Negocio\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\Capa_Negocio\bin\Debug\Capa_Datos.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\Capa_Negocio\bin\Debug\Capa_Entidad.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\Capa_Negocio\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\Capa_Negocio\bin\Debug\Capa_Datos.pdb
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\Capa_Negocio\bin\Debug\Capa_Entidad.pdb
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.AssemblyReference.cache
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\Capa_Negocio\obj\Debug\Capa_Negocio.pdb

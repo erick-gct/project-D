@@ -17,3 +17,22 @@ C:\Users\kenii\source\repos\AMBULANCIA\obj\Debug\AMBULANCIA.csproj.CopyComplete
 C:\Users\kenii\source\repos\AMBULANCIA\obj\Debug\AMBULANCIA.exe
 C:\Users\kenii\source\repos\AMBULANCIA\obj\Debug\AMBULANCIA.pdb
 C:\Users\kenii\source\repos\AMBULANCIA\obj\Debug\AMBULANCIA.registroAM.resources
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\bin\Debug\AMBULANCIA.exe.config
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\bin\Debug\AMBULANCIA.exe
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\bin\Debug\AMBULANCIA.pdb
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\bin\Debug\Capa_Entidad.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\bin\Debug\Capa_Negocio.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\bin\Debug\Capa_Datos.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\bin\Debug\Capa_Entidad.pdb
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\bin\Debug\Capa_Negocio.pdb
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\bin\Debug\Capa_Datos.pdb
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\obj\Debug\AMBULANCIA.csproj.AssemblyReference.cache
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\obj\Debug\AMBULANCIA.csproj.SuggestedBindingRedirects.cache
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\obj\Debug\AMBULANCIA.registroAM.resources
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\obj\Debug\AMBULANCIA.Properties.Resources.resources
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\obj\Debug\AMBULANCIA.csproj.GenerateResource.cache
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\obj\Debug\AMBULANCIA.csproj.CoreCompileInputs.cache
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\obj\Debug\AMBULANCIA.csproj.CopyComplete
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\obj\Debug\AMBULANCIA.exe
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\AMBULANCIA\obj\Debug\AMBULANCIA.pdb

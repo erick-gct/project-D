@@ -17,3 +17,22 @@ C:\Users\kenii\source\repos\actualizarconductor\obj\Debug\actualizarconductor.cs
 C:\Users\kenii\source\repos\actualizarconductor\obj\Debug\actualizarconductor.csproj.CopyComplete
 C:\Users\kenii\source\repos\actualizarconductor\obj\Debug\actualizarconductor.exe
 C:\Users\kenii\source\repos\actualizarconductor\obj\Debug\actualizarconductor.pdb
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\bin\Debug\actualizarconductor.exe.config
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\bin\Debug\actualizarconductor.exe
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\bin\Debug\actualizarconductor.pdb
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\bin\Debug\Capa_Entidad.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\bin\Debug\Capa_Negocio.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\bin\Debug\Capa_Datos.dll
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\bin\Debug\Capa_Entidad.pdb
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\bin\Debug\Capa_Negocio.pdb
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\bin\Debug\Capa_Datos.pdb
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\obj\Debug\actualizarconductor.csproj.AssemblyReference.cache
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\obj\Debug\actualizarconductor.csproj.SuggestedBindingRedirects.cache
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\obj\Debug\actualizarconductor.actCond.resources
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\obj\Debug\actualizarconductor.Properties.Resources.resources
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\obj\Debug\actualizarconductor.csproj.GenerateResource.cache
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\obj\Debug\actualizarconductor.csproj.CoreCompileInputs.cache
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\obj\Debug\actualizarconductor.csproj.CopyComplete
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\obj\Debug\actualizarconductor.exe
+C:\Users\tomva\OneDrive\Documents\PROJECTS\UNIVERSIDAD\PROYECTO GRUPO D\src\actualizarconductor\obj\Debug\actualizarconductor.pdb
