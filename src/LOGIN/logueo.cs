@@ -35,10 +35,8 @@ namespace LOGIN
                 frm1.ShowDialog();
                 
 
-                logueo login = new logueo();
-                login.ShowDialog();
 
-                if (login.DialogResult == DialogResult.OK)
+                if (frm1.DialogResult == DialogResult.OK)
                     Application.Run(new PRINCIPAL());
                 txtcontra.Clear();
                 txtusuario.Clear();
