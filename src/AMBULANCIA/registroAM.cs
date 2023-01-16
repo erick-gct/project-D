@@ -40,6 +40,31 @@ namespace AMBULANCIA
         }
         private void iconButton1_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtmodelo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
             if (txtcodigo.Text == "")
             {
                 if (MessageBox.Show("¿Deseas registrar la ambulancia con placa " + txtplaca.Text + "?", "Mensaje",
@@ -51,14 +76,9 @@ namespace AMBULANCIA
             }
         }
 
-        private void iconButton2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            limpiar();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }

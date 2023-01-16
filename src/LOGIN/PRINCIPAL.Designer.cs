@@ -119,7 +119,8 @@
             // 
             // button5
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.Cursor = System.Windows.Forms.Cursors.No;
+            this.button5.Enabled = false;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

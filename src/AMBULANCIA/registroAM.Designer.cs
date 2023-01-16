@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(registroAM));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtmarca = new System.Windows.Forms.TextBox();
             this.txtplaca = new System.Windows.Forms.TextBox();
@@ -39,26 +37,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(765, 450);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(236)))), ((int)(((byte)(236)))));
             this.groupBox1.Controls.Add(this.txtmarca);
             this.groupBox1.Controls.Add(this.txtplaca);
             this.groupBox1.Controls.Add(this.txtmodelo);
@@ -67,125 +53,131 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(170, 65);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(144)))), ((int)(((byte)(129)))));
+            this.groupBox1.Location = new System.Drawing.Point(75, 113);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(412, 143);
+            this.groupBox1.Size = new System.Drawing.Size(614, 164);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Datos";
+            this.groupBox1.Text = "Campos";
             // 
             // txtmarca
             // 
-            this.txtmarca.Location = new System.Drawing.Point(70, 83);
+            this.txtmarca.Location = new System.Drawing.Point(80, 105);
             this.txtmarca.Name = "txtmarca";
-            this.txtmarca.Size = new System.Drawing.Size(100, 20);
+            this.txtmarca.Size = new System.Drawing.Size(237, 22);
             this.txtmarca.TabIndex = 7;
             // 
             // txtplaca
             // 
-            this.txtplaca.Location = new System.Drawing.Point(274, 83);
+            this.txtplaca.Location = new System.Drawing.Point(399, 105);
             this.txtplaca.Name = "txtplaca";
-            this.txtplaca.Size = new System.Drawing.Size(100, 20);
+            this.txtplaca.Size = new System.Drawing.Size(182, 22);
             this.txtplaca.TabIndex = 6;
             // 
             // txtmodelo
             // 
-            this.txtmodelo.Location = new System.Drawing.Point(274, 37);
+            this.txtmodelo.Location = new System.Drawing.Point(399, 41);
             this.txtmodelo.Name = "txtmodelo";
-            this.txtmodelo.Size = new System.Drawing.Size(100, 20);
+            this.txtmodelo.Size = new System.Drawing.Size(182, 22);
             this.txtmodelo.TabIndex = 5;
+            this.txtmodelo.TextChanged += new System.EventHandler(this.txtmodelo_TextChanged);
             // 
             // txtcodigo
             // 
             this.txtcodigo.Enabled = false;
-            this.txtcodigo.Location = new System.Drawing.Point(70, 37);
+            this.txtcodigo.Location = new System.Drawing.Point(87, 41);
             this.txtcodigo.Name = "txtcodigo";
-            this.txtcodigo.Size = new System.Drawing.Size(100, 20);
+            this.txtcodigo.Size = new System.Drawing.Size(212, 22);
             this.txtcodigo.TabIndex = 4;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(226, 91);
+            this.label4.Location = new System.Drawing.Point(346, 108);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(34, 13);
+            this.label4.Size = new System.Drawing.Size(47, 16);
             this.label4.TabIndex = 3;
             this.label4.Text = "Placa";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(226, 44);
+            this.label3.Location = new System.Drawing.Point(334, 44);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
+            this.label3.Size = new System.Drawing.Size(59, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Modelo";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 91);
+            this.label2.Location = new System.Drawing.Point(24, 108);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 13);
+            this.label2.Size = new System.Drawing.Size(50, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Marca";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(24, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(57, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Código";
             // 
-            // iconButton2
+            // button1
             // 
-            this.iconButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.iconButton2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.HandSparkles;
-            this.iconButton2.IconColor = System.Drawing.Color.Yellow;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.IconSize = 40;
-            this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(520, 274);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(220, 50);
-            this.iconButton2.TabIndex = 89;
-            this.iconButton2.Text = "NUEVO";
-            this.iconButton2.UseVisualStyleBackColor = false;
-            this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(144)))), ((int)(((byte)(129)))));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(559, 349);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(130, 51);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Registrar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // iconButton1
+            // button2
             // 
-            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.iconButton1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
-            this.iconButton1.IconColor = System.Drawing.Color.Navy;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 40;
-            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(520, 346);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(220, 50);
-            this.iconButton1.TabIndex = 88;
-            this.iconButton1.Text = "REGISTRAR";
-            this.iconButton1.UseVisualStyleBackColor = false;
-            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            this.button2.BackColor = System.Drawing.Color.Gainsboro;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.DimGray;
+            this.button2.Location = new System.Drawing.Point(412, 349);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(130, 51);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Cancelar";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // registroAM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(765, 450);
-            this.Controls.Add(this.iconButton2);
-            this.Controls.Add(this.iconButton1);
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::AMBULANCIA.Properties.Resources.AMBG;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(765, 433);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.DoubleBuffered = true;
+            this.Name = "registroAM";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -193,8 +185,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtmarca;
         private System.Windows.Forms.TextBox txtplaca;
@@ -204,8 +194,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
