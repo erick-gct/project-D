@@ -112,5 +112,10 @@ namespace actualizarconductor
                 dataGridView1.DataSource = objneg.N_listar_conductor();
             }
         }
+
+        private void iconPictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

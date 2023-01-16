@@ -51,17 +51,7 @@ namespace CONDUCTOR
         }
         private void RegistroCO_Load(object sender, EventArgs e)
         {
-            iconPictureBox2.Parent = pictureBox1;
-            label1.Parent = pictureBox1;
-            label2.Parent = pictureBox1;
-            label3.Parent = pictureBox1;
-            label4.Parent = pictureBox1;
-            label5.Parent = pictureBox1;
-            label6.Parent = pictureBox1;
-            label7.Parent = pictureBox1;
-            label8.Parent = pictureBox1;
-            label9.Parent = pictureBox1;
-            label10.Parent = pictureBox1;
+
         }
 
         private void iconButton1_Click(object sender, EventArgs e)
