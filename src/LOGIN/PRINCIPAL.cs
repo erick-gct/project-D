@@ -18,9 +18,14 @@ namespace LOGIN
 {
     public partial class PRINCIPAL : Form
     {
-        public PRINCIPAL()
+        String user;
+
+        public PRINCIPAL(string user)
         {
             InitializeComponent();
+            this.user = user;
+
+            label5.Text = "Bienvenido "+this.user;
         }
 
         private void registrarToolStripMenuItem_Click(object sender, EventArgs e)

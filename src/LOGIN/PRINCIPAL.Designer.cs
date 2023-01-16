@@ -28,22 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.gestiónDeEntidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarEliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ambulanciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registrarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarEliminarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.conductorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registrarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarEliminarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.paramédicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registrarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarEliminarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
@@ -57,151 +42,19 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.menuStrip1.SuspendLayout();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gestiónDeEntidadesToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(709, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
-            // 
-            // gestiónDeEntidadesToolStripMenuItem
-            // 
-            this.gestiónDeEntidadesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clienteToolStripMenuItem,
-            this.ambulanciaToolStripMenuItem,
-            this.conductorToolStripMenuItem,
-            this.paramédicoToolStripMenuItem});
-            this.gestiónDeEntidadesToolStripMenuItem.Name = "gestiónDeEntidadesToolStripMenuItem";
-            this.gestiónDeEntidadesToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.gestiónDeEntidadesToolStripMenuItem.Text = "Archivo";
-            this.gestiónDeEntidadesToolStripMenuItem.Click += new System.EventHandler(this.gestiónDeEntidadesToolStripMenuItem_Click);
-            // 
-            // clienteToolStripMenuItem
-            // 
-            this.clienteToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registrarToolStripMenuItem,
-            this.modificarEliminarToolStripMenuItem});
-            this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.clienteToolStripMenuItem.Text = "Cliente";
-            // 
-            // registrarToolStripMenuItem
-            // 
-            this.registrarToolStripMenuItem.Name = "registrarToolStripMenuItem";
-            this.registrarToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.registrarToolStripMenuItem.Text = "Registrar";
-            this.registrarToolStripMenuItem.Click += new System.EventHandler(this.registrarToolStripMenuItem_Click);
-            // 
-            // modificarEliminarToolStripMenuItem
-            // 
-            this.modificarEliminarToolStripMenuItem.Name = "modificarEliminarToolStripMenuItem";
-            this.modificarEliminarToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.modificarEliminarToolStripMenuItem.Text = "Modificar/Eliminar";
-            this.modificarEliminarToolStripMenuItem.Click += new System.EventHandler(this.modificarEliminarToolStripMenuItem_Click);
-            // 
-            // ambulanciaToolStripMenuItem
-            // 
-            this.ambulanciaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registrarToolStripMenuItem1,
-            this.modificarEliminarToolStripMenuItem1});
-            this.ambulanciaToolStripMenuItem.Name = "ambulanciaToolStripMenuItem";
-            this.ambulanciaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ambulanciaToolStripMenuItem.Text = "Ambulancia";
-            // 
-            // registrarToolStripMenuItem1
-            // 
-            this.registrarToolStripMenuItem1.Name = "registrarToolStripMenuItem1";
-            this.registrarToolStripMenuItem1.Size = new System.Drawing.Size(173, 22);
-            this.registrarToolStripMenuItem1.Text = "Registrar";
-            this.registrarToolStripMenuItem1.Click += new System.EventHandler(this.registrarToolStripMenuItem1_Click);
-            // 
-            // modificarEliminarToolStripMenuItem1
-            // 
-            this.modificarEliminarToolStripMenuItem1.Name = "modificarEliminarToolStripMenuItem1";
-            this.modificarEliminarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.modificarEliminarToolStripMenuItem1.Text = "Modificar/Eliminar";
-            this.modificarEliminarToolStripMenuItem1.Click += new System.EventHandler(this.modificarEliminarToolStripMenuItem1_Click);
-            // 
-            // conductorToolStripMenuItem
-            // 
-            this.conductorToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registrarToolStripMenuItem2,
-            this.modificarEliminarToolStripMenuItem2});
-            this.conductorToolStripMenuItem.Name = "conductorToolStripMenuItem";
-            this.conductorToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.conductorToolStripMenuItem.Text = "Conductor";
-            // 
-            // registrarToolStripMenuItem2
-            // 
-            this.registrarToolStripMenuItem2.Name = "registrarToolStripMenuItem2";
-            this.registrarToolStripMenuItem2.Size = new System.Drawing.Size(173, 22);
-            this.registrarToolStripMenuItem2.Text = "Registrar";
-            this.registrarToolStripMenuItem2.Click += new System.EventHandler(this.registrarToolStripMenuItem2_Click);
-            // 
-            // modificarEliminarToolStripMenuItem2
-            // 
-            this.modificarEliminarToolStripMenuItem2.Name = "modificarEliminarToolStripMenuItem2";
-            this.modificarEliminarToolStripMenuItem2.Size = new System.Drawing.Size(173, 22);
-            this.modificarEliminarToolStripMenuItem2.Text = "Modificar/Eliminar";
-            this.modificarEliminarToolStripMenuItem2.Click += new System.EventHandler(this.modificarEliminarToolStripMenuItem2_Click);
-            // 
-            // paramédicoToolStripMenuItem
-            // 
-            this.paramédicoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registrarToolStripMenuItem3,
-            this.modificarEliminarToolStripMenuItem3});
-            this.paramédicoToolStripMenuItem.Name = "paramédicoToolStripMenuItem";
-            this.paramédicoToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.paramédicoToolStripMenuItem.Text = "Paramédico";
-            // 
-            // registrarToolStripMenuItem3
-            // 
-            this.registrarToolStripMenuItem3.Name = "registrarToolStripMenuItem3";
-            this.registrarToolStripMenuItem3.Size = new System.Drawing.Size(173, 22);
-            this.registrarToolStripMenuItem3.Text = "Registrar";
-            this.registrarToolStripMenuItem3.Click += new System.EventHandler(this.registrarToolStripMenuItem3_Click);
-            // 
-            // modificarEliminarToolStripMenuItem3
-            // 
-            this.modificarEliminarToolStripMenuItem3.Name = "modificarEliminarToolStripMenuItem3";
-            this.modificarEliminarToolStripMenuItem3.Size = new System.Drawing.Size(173, 22);
-            this.modificarEliminarToolStripMenuItem3.Text = "Modificar/Eliminar";
-            this.modificarEliminarToolStripMenuItem3.Click += new System.EventHandler(this.modificarEliminarToolStripMenuItem3_Click);
-            // 
             // pictureBox1
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::LOGIN.Properties.Resources.homebg;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(709, 432);
+            this.pictureBox1.Size = new System.Drawing.Size(709, 433);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::LOGIN.Properties.Resources.Vector;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(672, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 25);
-            this.button1.TabIndex = 2;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -390,12 +243,26 @@
             this.label4.TabIndex = 14;
             this.label4.Text = "Paramédicos";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(144)))), ((int)(((byte)(129)))));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(277, 0);
+            this.label5.Name = "label5";
+            this.label5.Padding = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.label5.Size = new System.Drawing.Size(139, 45);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Bienvenido";
+            // 
             // PRINCIPAL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(709, 432);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.label4);
@@ -409,17 +276,12 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MainMenuStrip = this.menuStrip1;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "PRINCIPAL";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
             this.Load += new System.EventHandler(this.PRINCIPAL_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -427,21 +289,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem gestiónDeEntidadesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem clienteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem registrarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modificarEliminarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ambulanciaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem registrarToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem modificarEliminarToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem conductorToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem registrarToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem modificarEliminarToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem paramédicoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem registrarToolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem modificarEliminarToolStripMenuItem3;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
@@ -456,5 +303,6 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }

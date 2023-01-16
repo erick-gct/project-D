@@ -9,15 +9,15 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Capa_Entidad;
 using Capa_Negocio;
+
 namespace LOGIN
 {
-    
-
     public partial class logueo : Form
     {
         ClaseEntidad objent = new ClaseEntidad();
         ClaseNegocio objneg = new ClaseNegocio();
-        PRINCIPAL frm1 = new PRINCIPAL();
+        String userloged;
+
 
         public static string usuario_nombre;
         void p_logueo()
@@ -30,17 +30,23 @@ namespace LOGIN
 
             if (dt.Rows.Count > 0)
             {
-               MessageBox.Show("BIENVENIDO" + dt.Rows[0][1].ToString(),"Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+               //MessageBox.Show("BIENVENIDO" + dt.Rows[0][1].ToString(),"Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 usuario_nombre = dt.Rows[0][1].ToString();
-                frm1.ShowDialog();
-                
+                //this.Hide();
 
+                setUser(usuario_nombre);
 
-                if (frm1.DialogResult == DialogResult.OK)
-                    Application.Run(new PRINCIPAL());
                 txtcontra.Clear();
                 txtusuario.Clear();
                 label1.Text = "";
+
+                this.Hide();
+                PRINCIPAL frm1 = new PRINCIPAL(getUser());
+                frm1.ShowDialog();
+                this.Show();
+                
+                //Application.Run(new PRINCIPAL());
+
 
             }
             else
@@ -49,9 +55,19 @@ namespace LOGIN
             }
         }
 
-        public logueo()
+        public logueo(string userloged)
         {
             InitializeComponent();
+            this.userloged = userloged;
+        }
+
+        void setUser(String user)
+        {
+            this.userloged = user;
+        }
+
+        String getUser() {
+            return this.userloged;  
         }
 
         private void label2_Click(object sender, EventArgs e)
