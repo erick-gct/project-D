@@ -57,8 +57,7 @@ namespace actualizarclientess
         private void actualizacion_Load(object sender, EventArgs e)
         {
             dataGridView1.DataSource = objneg.N_listar_clientes();
-            groupBox1.Parent = pictureBox1;
-            iconButton1.Parent = pictureBox1;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -124,7 +123,7 @@ namespace actualizarclientess
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
-            Dispose();
+            
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -170,6 +169,31 @@ namespace actualizarclientess
         private void label8_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            //Dispose();
+        }
+
+        private void iconPictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtcedula_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
