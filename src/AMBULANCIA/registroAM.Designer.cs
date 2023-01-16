@@ -175,6 +175,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "registroAM";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

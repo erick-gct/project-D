@@ -66,12 +66,7 @@ namespace CONDUCTOR
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("¿Deseas registrar a " + txtnombres.Text + "?", "Mensaje",
-                    MessageBoxButtons.YesNo, MessageBoxIcon.Information) == System.Windows.Forms.DialogResult.Yes)
-            {
-                mantenimiento("1");
-                limpiar();
-            }
+           
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
@@ -127,6 +122,26 @@ namespace CONDUCTOR
         private void txtservicios_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void iconPictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Deseas registrar a " + txtnombres.Text + "?", "Mensaje",
+                   MessageBoxButtons.YesNo, MessageBoxIcon.Information) == System.Windows.Forms.DialogResult.Yes)
+            {
+                mantenimiento("1");
+                limpiar();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
