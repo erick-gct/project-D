@@ -10,6 +10,7 @@ namespace Capa_Negocio
 {
     public class ClaseNegocio
     {
+        //Accedemos al objetto de la clase datos
         ClaseDatos objd = new ClaseDatos();
 
         public DataTable N_user(ClaseEntidad obje)

@@ -14811,18 +14811,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tomva\\.nuget\\packages\\": {},
+    "C:\\Users\\erick\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tomva\\OneDrive\\Documents\\PROJECTS\\UNIVERSIDAD\\PROYECTO GRUPO D\\src\\UniTestD\\UniTestD.csproj",
+      "projectUniqueName": "C:\\Users\\erick\\Desktop\\PROYECTO SEGUNDO PARCIAL\\project-D\\src\\UniTestD\\UniTestD.csproj",
       "projectName": "UniTestD",
-      "projectPath": "C:\\Users\\tomva\\OneDrive\\Documents\\PROJECTS\\UNIVERSIDAD\\PROYECTO GRUPO D\\src\\UniTestD\\UniTestD.csproj",
-      "packagesPath": "C:\\Users\\tomva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tomva\\OneDrive\\Documents\\PROJECTS\\UNIVERSIDAD\\PROYECTO GRUPO D\\src\\UniTestD\\obj\\",
+      "projectPath": "C:\\Users\\erick\\Desktop\\PROYECTO SEGUNDO PARCIAL\\project-D\\src\\UniTestD\\UniTestD.csproj",
+      "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\erick\\Desktop\\PROYECTO SEGUNDO PARCIAL\\project-D\\src\\UniTestD\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -14830,7 +14830,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\tomva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

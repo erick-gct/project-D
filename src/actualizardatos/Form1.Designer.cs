@@ -147,6 +147,7 @@
             this.txtcodigo.Name = "txtcodigo";
             this.txtcodigo.Size = new System.Drawing.Size(100, 20);
             this.txtcodigo.TabIndex = 4;
+            this.txtcodigo.TextChanged += new System.EventHandler(this.txtcodigo_TextChanged);
             // 
             // label4
             // 

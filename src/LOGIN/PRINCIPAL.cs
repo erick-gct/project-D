@@ -34,7 +34,7 @@ namespace LOGIN
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Grupo D", "Proyecto de Construcción de Software", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Erick Campuzano", "Proyecto de Construcción de Software", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void label2_Click(object sender, EventArgs e)

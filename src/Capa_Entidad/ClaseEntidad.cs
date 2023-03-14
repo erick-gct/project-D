@@ -8,6 +8,8 @@ namespace Capa_Entidad
 {
     public class ClaseEntidad
     {
+
+
         public String usuario { get; set; }
         public String clave { get; set; }
         public String marca { get; set; }

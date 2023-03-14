@@ -141,5 +141,10 @@ namespace actualizardatos
             RegistroCL formulario = new RegistroCL();
             formulario.ShowDialog();
         }
+
+        private void txtcodigo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

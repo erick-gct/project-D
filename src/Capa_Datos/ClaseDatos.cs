@@ -14,6 +14,7 @@ namespace Capa_Datos
     {
         SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["sql"].ConnectionString);
 
+
         public DataTable D_user(ClaseEntidad obje)
         {
             SqlCommand cmd = new SqlCommand("sp_logueo_ez", cn);
