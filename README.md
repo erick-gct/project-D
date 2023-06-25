@@ -1,10 +1,7 @@
-# Projecto D
+# Projecto Grupo
 
 Atajos
-* [Ir a la documentación](https://github.com/erick-gct/project-D/tree/main/Documents)
-* [Ir al archivo de base de datos](https://github.com/erick-gct/project-D/tree/main/Database)
-* [Ir al código](https://github.com/erick-gct/project-D/tree/main/src)
-* [Ir al Test Unitario](https://github.com/erick-gct/project-D/tree/main/src/UniTestD)
+* [Ir a la documentación]()
 
 ## Screenshots
 
@@ -14,14 +11,9 @@ Atajos
 ### Home
 ![home](/ScreenShots/home.png)
 
-### Registro
-![login](/ScreenShots/newClient.png)
 
-### Edición
-![login](/ScreenShots/editClient.png)
+
 
 ## Colaboradores
-> * [Tomás Vargas](https://github.com/Tomvargas)
-> * Caicedo Barzola Kenny
-> * Carrillo Neira Wilson
 > * Campuzano Torres Erick
+"# ProyectoGrupo5A" 
